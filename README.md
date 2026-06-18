@@ -4,7 +4,8 @@
 
 Cookie Cats is a mobile puzzle game developed by Tactile Entertainment where players progress through increasingly difficult levels. As players advance, they encounter gates that temporarily block progress, requiring either a wait or an in-app purchase to continue. These gates serve a dual purpose: generating revenue and potentially improving long-term engagement by encouraging players to take breaks rather than burning out.
 This project analyzes a real A/B test run by the game's development team to evaluate the impact of moving the first progression gate from level 30 to level 40 on player retention. The central business question is whether delaying the gate encounter changes how likely players are to return to the game after one day and after seven days.
-Dataset
+
+## Dataset
 
 The dataset contains 90,189 players who installed the game during the A/B test window and were randomly assigned to one of two groups.
 ColumnDescriptionuseridUnique player identifierversiongate_30 (control) or gate_40 (treatment)sum_gameroundsGame rounds played in the first 14 daysretention_1Whether the player returned 1 day after installingretention_7Whether the player returned 7 days after installing
