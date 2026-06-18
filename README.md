@@ -7,11 +7,20 @@ This project analyzes a real A/B test run by the game's development team to eval
 
 ## Dataset
 
-The dataset contains 90,189 players who installed the game during the A/B test window and were randomly assigned to one of two groups.
-ColumnDescriptionuseridUnique player identifierversiongate_30 (control) or gate_40 (treatment)sum_gameroundsGame rounds played in the first 14 daysretention_1Whether the player returned 1 day after installingretention_7Whether the player returned 7 days after installing
-Analysis Structure
+The dataset contains 90,189 players who installed the game during the A/B test window and were randomly assigned to one of two groups. The variables in the data are:
 
-## The notebook covers the following steps in order:
+userid: Unique player identifier
+
+version: gate_30 (control) or gate_40 (treatment)
+
+sum_gamerounds: Game rounds played in the first 14 days
+
+retention_1: Whether the player returned 1 day after installing
+
+retention_7: Whether the player returned 7 days after installing
+
+## Analysis Structure
+The notebook covers the following steps in order:
 
 1. Exploratory data analysis: group balance check, distribution of game rounds, outlier identification and removal
 Hypothesis definition — null and alternative hypotheses for both retention metrics, and the practical decision being informed
